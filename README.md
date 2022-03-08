@@ -2,6 +2,7 @@
 Setup node to work with typescript
 
 <h2>Create package.json</h2>
+
 ```
  npm init -y      
 ```
