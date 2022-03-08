@@ -1,8 +1,8 @@
-import  {add}  from './utils';
-const fs = require('fs');
+import { sum } from "./utils";
+console.log('hello typescript');
 
-let text : string = 'Hello typescript !!'
-console.log(text);
-console.log(add(1,2));
+let num : number = 22;
+console.log(`num : ${num}`);
 
 
+console.log(sum(11,22));
