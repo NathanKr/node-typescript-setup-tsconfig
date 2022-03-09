@@ -81,7 +81,7 @@ uncomment and changed to ./src
 
 
 <h2>Install others</h2> 
-The following is needed e.g. when using require
+The following is needed e.g. when using node modules
 
 ```
 npm i @types/node
@@ -95,3 +95,14 @@ npm i @types/node
 ```
 
 make sure nodemon is installed globally if you want to use it
+
+
+<h2>Points of interest</h2> 
+use import to use node module e.g.
+
+```
+import process from 'process';
+
+```
+
+require will work only if it appears after other import, so better not use
