@@ -1,4 +1,8 @@
+const process = require('process');
 import { sum } from "./utils";
+
+console.log(process.cwd());
+
 console.log('hello typescript');
 
 let num : number = 22;
