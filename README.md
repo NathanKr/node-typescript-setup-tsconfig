@@ -80,7 +80,7 @@ uncomment and changed to ./dist
 uncomment and changed to ./src 
 
 
-<h2>Install others</h2>
+<h2>Install others</h2> 
 The following is needed e.g. when using require
 
 ```
