@@ -1,5 +1,5 @@
 <h2>Motivation</h2>
-Setup node to work with typescript using use tsc and tsconfig.json
+Setup node to work with typescript using tsc and tsconfig.json
 
 <h2>Installation</h2>
 
@@ -103,4 +103,3 @@ import process from 'process';
 
 ```
 
-require will work only if it appears after other import, so better not use
