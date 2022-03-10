@@ -93,6 +93,7 @@ npm run dev
 <li>You will not get error compiling the code with out import \ export sum function - which is not what i am expecting</li>
 <li>usage may be cumbersome: you need to compile from one terminal e.g. using tsc -w and run from another terminal e.g. using node or nodemon. You are in big trouble If you forget to compile, use old compilation and run node or nodemon</li>
 <li>you get an error using require in index.ts instead of import in case there are no other import in index.ts. This is strange and not clear</li>
+<li>We must have compiled version to run node. Compiled version is in ./dist and this is annoying when you search for files during development</li>
 </ul>
 
 <h2>Points of interest</h2> 
